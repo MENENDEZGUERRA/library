@@ -1,0 +1,105 @@
+body {
+    background-color: #0F0F0F;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#library-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    background-color: #232D3F;
+    border: 2px solid #005B41;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.card h2,
+.card p {
+    margin: 5px 0;
+}
+
+button {
+    background-color: #008170;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005B41;
+}
+
+dialog {
+    background-color: #232D3F;
+    color: #FFFFFF;
+    border: 2px solid #005B41;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+dialog label,
+dialog input {
+    margin-bottom: 10px;
+}
+
+dialog input[type="submit"] {
+    background-color: #008170;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+dialog input[type="submit"]:hover {
+    background-color: #005B41;
+}
+
+header {
+    background-color: #232D3F;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+footer {
+    background-color: #232D3F;
+    color: #FFFFFF;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 12px;
+}
