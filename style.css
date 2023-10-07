@@ -1,4 +1,10 @@
+@font-face {
+    font-family: 'Cunia';
+    src: url('./font/Cunia.otf');
+}
+
 body {
+    font-family: 'Cunia', Arial, sans-serif;
     background-color: #0F0F0F;
     color: #FFFFFF;
     font-family: Arial, sans-serif;
@@ -7,6 +13,7 @@ body {
 }
 
 header {
+    
     background-color: #232D3F;
     color: #FFFFFF;
     padding: 10px;

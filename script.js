@@ -98,8 +98,8 @@ document.getElementById('new-book-form').addEventListener('submit', function(eve
 });
 
 // Example books
-addBookToLibrary("Harry Potter", "J.K. Rowling", 320, true, "https://example.com/harry-potter.jpg");
-addBookToLibrary("The Hobbit", "J.R.R. Tolkien", 310, false, "https://example.com/the-hobbit.jpg");
+addBookToLibrary("Harry Potter", "J.K. Rowling", 320, true, "https://m.media-amazon.com/images/I/71HbYElfY0L._AC_UF1000,1000_QL80_.jpg");
+addBookToLibrary("The Hobbit", "J.R.R. Tolkien", 310, false, "https://m.media-amazon.com/images/I/710+HcoP38L._AC_UF1000,1000_QL80_.jpg");
 
 // Display books on page load
 displayBooks();
