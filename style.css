@@ -6,6 +6,20 @@ body {
     padding: 0;
 }
 
+header {
+    background-color: #232D3F;
+    color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
 #library-display {
     display: flex;
     flex-wrap: wrap;
@@ -75,18 +89,6 @@ dialog input[type="submit"] {
 
 dialog input[type="submit"]:hover {
     background-color: #005B41;
-}
-
-header {
-    background-color: #232D3F;
-    color: #FFFFFF;
-    padding: 10px;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 24px;
 }
 
 footer {
